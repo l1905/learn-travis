@@ -3,6 +3,4 @@ php:
   - 7.1.9
 before_script:
   - php test.php
-script: echo $TEST
-env:
- -test=unit
+script: echo "1234567"
